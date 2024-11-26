@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: weather.rest-api.spring-boot.demo
+    threshold:
+      temperature: 1.0
+      pressureLow: 0.5
+      pressureHigh: 2.0
+  weatherbit:
+    url: http://api.weatherbit.io
+    currentUrl: /v2.0/current
+    forecastUrl: /v2.0/forecast/daily
+    apiKey: YOUR_API_KEY
+    lang: en
+  output:
+      ansi:
+        enabled: always
+logging: 
+  level: 
+    root: INFO
+    org.springframework.web: WARN
+    weather.rest_api.spring_boot.demo: DEBUG
