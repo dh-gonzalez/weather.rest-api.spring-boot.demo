@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "pres": 1010,
+            "temp": 10.0,
+            "wind_spd": 7.5
+        },
+        {
+            "pres": 1015,
+            "temp": 12.0,
+            "wind_spd": 7.5
+        },
+        {
+            "pres": 1020,
+            "temp": 14.0,
+            "wind_spd": 7.5
+        },
+        {
+            "pres": 1025,
+            "temp": 16.0,
+            "wind_spd": 7.5
+        },
+        {
+            "pres": 1030,
+            "temp": 18.0,
+            "wind_spd": 7.5
+        },
+        {
+            "pres": 1035,
+            "temp": 20.0,
+            "wind_spd": 7.5
+        },
+        {
+            "pres": 1040,
+            "temp": 22.0,
+            "wind_spd": 7.5
+        }
+    ]
+}
