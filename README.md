@@ -58,14 +58,9 @@ Demo of a spring boot application which exposes a weather REST API
 ### End2End tests HTML report
 * located at `target\karate-reports\karate-summary.html`
 
-## TODOs
-* End2End code coverage result and HTML report
-* Implement cache with Caffeine, Ehcache or Redis
-* Upgrade from [Eclipse Temurin] base image to [GCR distroless] base image
-* Rewrite all project with Quarkus
+[Weatherbit]: https://www.weatherbit.io/
 
 [Swagger UI]: http://localhost:8080/swagger-ui/index.html
+[Swagger api-docs]: http://localhost:8080/v3/api-docs
+[Spring Actuator]: http://localhost:8080/actuator
 [Karate]: https://github.com/karatelabs/karate  
-[Weatherbit]: https://www.weatherbit.io/
-[Eclipse Temurin]: https://hub.docker.com/_/eclipse-temurin  
-[GCR distroless]: https://console.cloud.google.com/artifacts/docker/distroless/us/gcr.io
