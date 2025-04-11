@@ -62,5 +62,5 @@ Demo of a spring boot application which exposes a weather REST API
 
 [Swagger UI]: http://localhost:8080/swagger-ui/index.html
 [Swagger api-docs]: http://localhost:8080/v3/api-docs
-[Spring Actuator]: http://localhost:8080/actuator
+[Spring Actuator Health]: http://localhost:8080/actuator/health
 [Karate]: https://github.com/karatelabs/karate  
