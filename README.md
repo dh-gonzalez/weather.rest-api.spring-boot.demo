@@ -27,7 +27,7 @@ Demo of a spring boot application which exposes a weather REST API
 ## Manual build
 * Replace `YOUR_API_KEY` with your [Weatherbit] API KEY
 * `mvn clean package surefire-report:report jacoco:report`
-* `docker build . --file Dockerfile --build-arg JAR_FILE=target/*.jar --tag ghcr.io/dh-gonzalez/weather.rest-api.spring-boot.demo:latest`
+* `docker build . --file src/main/docker/Dockerfile --build-arg JAR_FILE=target/*.jar --tag ghcr.io/dh-gonzalez/weather.rest-api.spring-boot.demo:latest`
 
 ### Unit tests HTML report and Jacoco code coverage HTML report
 * HTML unit tests report is located at `target/reports/surefire.html`

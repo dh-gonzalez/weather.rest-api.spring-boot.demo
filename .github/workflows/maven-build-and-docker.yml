@@ -47,4 +47,4 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build and push the Docker image
-      run: docker build --push . --file Dockerfile --build-arg JAR_FILE=target/*.jar --tag ghcr.io/dh-gonzalez/weather.rest-api.spring-boot.demo:latest
+      run: docker build --push . --file src/main/docker/Dockerfile --build-arg JAR_FILE=target/*.jar --tag ghcr.io/dh-gonzalez/weather.rest-api.spring-boot.demo:latest
